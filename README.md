@@ -1,19 +1,5 @@
-# TES Spring Boot Library Template
+# TES Docker Containers
 
-This is a template to create new libraries to be used with solutions written with Spring Boot.
+Library to easy the use and tests of docker containers with the 3. part library `testcontainers`
 
-## Content
-
-The template provides the following:
-
-- Gradle project files
-- README
-- CHANGELOG
-- Gradle plugin to manage the changelog file.
-
-## Existing code
-
-The template include some existing code to verify that the `build.gradle` is correct.
-
-The code has no purpose besides this and can safely be removed when the template is used.
-
+## Purpose
