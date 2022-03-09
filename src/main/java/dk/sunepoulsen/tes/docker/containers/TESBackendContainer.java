@@ -11,7 +11,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 public class TESBackendContainer extends GenericContainer<TESBackendContainer> {
-    TESBackendContainer(String imageName, String tagName, String springProfile) {
+    public TESBackendContainer(String imageName, String tagName, String springProfile) {
         super(DockerImageName.parse(imageName + ":" + tagName));
 
         withEnv("SPRING_PROFILES_ACTIVE", springProfile);
