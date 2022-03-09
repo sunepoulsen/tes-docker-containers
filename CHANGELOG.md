@@ -16,8 +16,15 @@ For release-dates, use date-format: YYYY-MM-DD
 ## Unreleased work
 ### Features
 
+### Fixed
+
+### Security
+
+## 1.0.0 - 2022-03-09
+### Features
 - [TES-12](https://sunepoulsen.atlassian.net/browse/TES-12): Library for general use of test-containers with TES backends
 
 ### Fixed
 
 ### Security
+
